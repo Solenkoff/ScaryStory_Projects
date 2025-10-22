@@ -21,7 +21,7 @@
         <span>Fill the author information, genre and the story text!</span>
       </h1>
       <form>
-        <div class="section">
+        <div class="section"><span>&#9753;</span>
           Author Information</div>
         <div class="inner-wrap">
           <label>First Name: <input type="text" id="first-name" name="field1" /></label>
@@ -31,16 +31,25 @@
           <label>Story Title:
             <input type="text" id="story-title" name="field5" />
           </label>
+          <lable>Genre:
+            <select name="field4" id="genre">
+              <option value="Disturbing" >Disturbing</option>
+              <option value="Psycological" >Psycological</option>
+              <option value="Killer" >Killer</option>
+              <option value="Monsters" >Monsters</option>
+              <option value="Paranormal" >Paranormal</option>
+            </select>
+          </lable>
         </div>
 
-        <div class="section">
+        <div class="section"><span>&#9753;</span>
           Story</div>
         <div class="inner-wrap">
           <label for="story">Your Story:</label>
           <textarea id="story" name="story" rows="6" cols="50"></textarea>
         </div>
         <div class="button-section">
-          <input type="button" id="form-btn" value="Publish" />
+          <input type="button" id="form-btn" value="Publish Story" />
         </div>
       </form>
     </div>
